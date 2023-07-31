@@ -68,7 +68,7 @@ filter(.data=KishoreChickWeight,Chick==1)
 #Let's 'group' our data by Diet
 #TASK: Write the code to group the data by Diet (hint: group_by)
 
-group_by(.data=KishoreChickWeight,Chick)
+group_by(.data=KishoreChickWeight,Diet)
 
 #Task: add one of the other codes (not in the tasks above) 
 #you learned about from the dplyr package
